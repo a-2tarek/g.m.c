@@ -1,0 +1,10 @@
+nav {
+     color: red;
+     font: roboto;
+     display: inline;
+}
+th {
+    color: aqua;
+    display: inline;
+    margin: 20px;
+}
