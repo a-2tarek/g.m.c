@@ -12,6 +12,8 @@
     display: flex;
     justify-content: space-between;
     position: sticky;
+    align-items: center;
+    ;
 }
 #logo{
     width: 280px;
@@ -23,8 +25,7 @@
     width: 30%;
     float: right;
     list-style: none;
-    margin-right: 10px;
-    margin-top: 15px;
+    align-items: center;
 }
 .dropdown {
     position:static;
@@ -51,6 +52,30 @@
 
 .dropdown:hover .drop-list {
     display: block;
+}
+.links a{
+    color: #ababab;
+}
+#about{
+    color: #00b39b;;
+}
+.cen-logo{
+    width: 40px;
+}
+.img_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#main-h1 {
+    text-align: center;
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
 }
 
 
