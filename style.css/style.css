@@ -13,19 +13,19 @@
     justify-content: space-between;
     position: sticky;
     align-items: center;
-    ;
 }
 #logo{
     width: 280px;
-    padding: 15px;
+    padding: 40px;
 }
 .links{
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 20%;
     float: right;
     list-style: none;
     align-items: center;
+    margin: 2rem;
 }
 .dropdown {
     position:static;
@@ -77,5 +77,78 @@
     font-weight: 300;
     letter-spacing: -.3px;
 }
-
+.discrip {
+    width: 100%;
+    display: flex;
+    margin: 80px 0;
+    color: #747474;
+}
+.des-txt1 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 1.5rem;
+    color: #747474;
+    margin-left: 190px;
+}
+.des-txt2 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 1.5rem;
+    color: #747474;
+    margin-right: 190px;
+}
+.the-for {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    column-gap: 1.3em;
+}
+.patients {
+    background-color: #00ccb1;
+}
+.doctors{
+    background-color:#2596be ;
+}
+.clinics{
+    background-color:#130d21;
+}
+.doctors , .patients , .clinics {
+    color: azure;
+    border-radius: 10px;
+    height: 345px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.patients img{
+    margin: 20px 0 0 20px;
+}
+.patients_txt {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+span{
+    margin: 20px;
+}
+label{
+    margin: 15px;
+}
+.doctors img{
+    margin: 20px 0 0 20px;
+}
+.doctors_txt{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+.clinics img{
+    margin: 20px 0 0 20px;
+    width: 20px;
+    height: 20px;
+}
+.clinics_txt{
+    font-size: 1.5rem;
+    margin: 10px;
+}
 
